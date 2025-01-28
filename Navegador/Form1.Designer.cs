@@ -30,7 +30,6 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.atrásToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.adelanteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.actualizarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -43,7 +42,6 @@
             // menuStrip1
             // 
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.salirToolStripMenuItem,
             this.atrásToolStripMenuItem,
             this.adelanteToolStripMenuItem,
             this.actualizarToolStripMenuItem});
@@ -52,13 +50,6 @@
             this.menuStrip1.Size = new System.Drawing.Size(1059, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
-            // 
-            // salirToolStripMenuItem
-            // 
-            this.salirToolStripMenuItem.Name = "salirToolStripMenuItem";
-            this.salirToolStripMenuItem.Size = new System.Drawing.Size(41, 20);
-            this.salirToolStripMenuItem.Text = "Salir";
-            this.salirToolStripMenuItem.Click += new System.EventHandler(this.salirToolStripMenuItem_Click);
             // 
             // atrásToolStripMenuItem
             // 
@@ -85,7 +76,7 @@
             // 
             this.button1.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.Location = new System.Drawing.Point(285, 0);
+            this.button1.Location = new System.Drawing.Point(250, 0);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 1;
@@ -96,9 +87,9 @@
             // textBox1
             // 
             this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox1.Location = new System.Drawing.Point(364, 5);
+            this.textBox1.Location = new System.Drawing.Point(329, 5);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(683, 13);
+            this.textBox1.Size = new System.Drawing.Size(707, 13);
             this.textBox1.TabIndex = 2;
             // 
             // webBrowser1
@@ -125,7 +116,7 @@
             this.MaximizeBox = false;
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Navegador Yameli";
+            this.Text = "Yameli\'s browser";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
@@ -136,7 +127,6 @@
         #endregion
 
         private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem salirToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem atrásToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem adelanteToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem actualizarToolStripMenuItem;
